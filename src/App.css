@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,38 @@
   to {
     transform: rotate(360deg);
   }
+} */
+html, body{
+  height: 100%
 }
+body{
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica Neue;
+}
+h1{
+  font-size: 2em;
+  color: #eee;
+  display: inline-block;
+}
+a{color: white;}
+  
+p{
+  margin-top: 1em;
+  text-align: center;
+  color: #aaa;
+}
+.ButtonCSS {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+  
